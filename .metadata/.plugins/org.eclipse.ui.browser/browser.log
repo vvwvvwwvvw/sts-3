@@ -7,3 +7,22 @@
 
 2월 02, 2024 15:13:42.422 NEW SESSION
 2월 02, 2024 15:13:42.423 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+2월 06, 2024 14:47:28.530 NEW SESSION
+2월 06, 2024 14:47:28.530 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 06, 2024 14:58:18.972 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 06, 2024 15:05:24.910 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 06, 2024 15:08:06.454 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 06, 2024 15:21:10.860 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+2월 06, 2024 15:41:39.887 NEW SESSION
+2월 06, 2024 15:41:39.887 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 06, 2024 15:43:25.342 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+2월 07, 2024 11:37:25.665 NEW SESSION
+2월 07, 2024 11:37:25.665 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 07, 2024 15:02:07.519 [6816:14872:0207/150207.519:ERROR:device_event_log_impl.cc(192)] [15:02:07.519] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+2월 07, 2024 15:02:07.560 [6816:14872:0207/150207.560:ERROR:device_event_log_impl.cc(192)] [15:02:07.560] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+2월 07, 2024 15:02:11.559 [6816:14872:0207/150211.559:ERROR:device_event_log_impl.cc(192)] [15:02:11.559] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+2월 07, 2024 15:02:11.573 [6816:14872:0207/150211.572:ERROR:device_event_log_impl.cc(192)] [15:02:11.572] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+2월 07, 2024 15:13:11.322 [6816:14872:0207/151311.321:ERROR:device_event_log_impl.cc(192)] [15:13:11.321] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
