@@ -48,4 +48,35 @@ public class HomeController {
 		return view;
 	}
 
+	@GetMapping("detail")
+	public String detail(Integer m_code, Model model) {
+		log.info("detail()");
+		mServ.getMovie(m_code, model);
+		return "detail";// jsp 파일명
+	}
+	
+	// 수정페이지로 전환
+	@GetMapping("updateFrm")
+	public String updateFrm (Integer m_code , Model model) {
+		log.info("updateFrm()");
+		mServ.getMovie(m_code, model);
+		return "updateFrm";
+	}
+	
+	// 수정 데이터 처리
+	@PostMapping("updateProc")
+	public String updateProc(@RequestPart List<MultipartFile> files, MovieDto movie, HttpSession session,
+			RedirectAttributes rttr) {
+		log.info("updateProc()");
+		String view = mServ.movieUpdate(files , movie , session, rttr);
+		return view;
+	}
+	// 삭제 데이터 처리
+	@GetMapping("delete")
+	public String deleteMovie(Integer m_code , HttpSession session, RedirectAttributes rttr) {
+		log.info("deleteMovie");
+		String view = mServ.movieDelete(m_code, session, rttr);
+		return view;
+	}
+
 }// class end

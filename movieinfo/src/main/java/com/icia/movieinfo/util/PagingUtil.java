@@ -31,6 +31,7 @@ public class PagingUtil {
 		if (start != 1) {
 			sb.append("<a class = 'pno' href='./?pageNum=");
 			sb.append((start - 1) + "'>");
+			
 			sb.append("◀</a>");
 		} // a class = 'pno' href='./?pageNum=5'>◀</a>
 			// 6. 중간 번호 버튼 처리
